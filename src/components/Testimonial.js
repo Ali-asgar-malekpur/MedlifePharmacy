@@ -16,54 +16,73 @@ function Testimonal() {
       <>
       <div className='main'>
     <div className='testimonal'>
-    <h2 className='text-center testimonal-heading'> TESTIMONIALS </h2>
-    <hr></hr>
+    <h3 className="start"><span className='BottomLine'>Testi</span>monials</h3>
+    <br/>
     <Slider {...settings}>
+      <div className='testimonal-card mx-5 '>
+        <p className='testimonal-para'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+        <h3 className='centertext'>ANJU MADNANI</h3>
+        <span className='grayy'>49 / Homemaker</span>
+      </div>
+
+      <div className='testimonal-card mx-5 '>
+        <p className='testimonal-para'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+        <h3 className='centertext'>SHRUTI</h3>
+        <span className='grayy'>26 / EY Employee</span>
+      </div>
+
+      <div className='testimonal-card mx-5 '>
+        <p className='testimonal-para'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+        <h3 className='centertext'>SHALINI</h3>
+        <span className='grayy'>25 / ICICI</span>
+      </div>
+
+
+            <div className='testimonal-card mx-5 '>
+        <p className='testimonal-para'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+        <h3 className='centertext'>ANJU MADNANI</h3>
+        <span className='grayy'>49 / Homemaker</span>
+      </div>
+
+      <div className='testimonal-card mx-5 '>
+        <p className='testimonal-para'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+        <h3 className='centertext'>ANJU MADNANI</h3>
+        <span className='grayy'>49 / Homemaker</span>
+      </div>
+
+      <div className='testimonal-card mx-5 '>
+        <p className='testimonal-para'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+        <h3 className='centertext'>ANJU MADNANI</h3>
+        <span className='grayy'>49 / Homemaker</span>
+      </div>
+
+            <div className='testimonal-card mx-5'>
+        <p className='testimonal-para'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+        <h3 className='centertext'>ANJU MADNANI</h3>
+        <span className='grayy'>49 / Homemaker</span>
+      </div>
+
       <div className='testimonal-card mx-5 greenback'>
-        <h3>ANJU MADNANI</h3>
-        <span className='gray '>49 / Homemaker</span>
         <p className='testimonal-para'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+        <h3 className='centertext'>ANJU MADNANI</h3>
+        <span className='grayy'>49 / Homemaker</span>
       </div>
-      <div className='testimonal-card mx-5'>
-        <h3>SHRUTI</h3>
-        <span className='gray'>26 / EY Employee</span>
+
+      <div className='testimonal-card mx-5 greenback'>
         <p className='testimonal-para'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
-      </div>
-      <div className='testimonal-card mx-5'>
-        <h3>DEVINA</h3>
-        <span className='gray'>25 / Doctor</span>
+        <h3 className='centertext'>ANJU MADNANI</h3>
+        <span className='grayy'>49 / Homemaker</span>
+      </div>      <div className='testimonal-card mx-5 greenback'>
         <p className='testimonal-para'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+        <h3 className='centertext'>ANJU MADNANI</h3>
+        <span className='grayy'>49 / Homemaker</span>
       </div>
-      <div className='testimonal-card mx-5'>
-        <h3>SHALINI</h3>
-        <span className='gray'>25 / ICICI Employee</span>
+
+      <div className='testimonal-card mx-5 greenback'>
         <p className='testimonal-para'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
-      </div>
-      <div className='testimonal-card mx-5'>
-        <h3>ANIRUDH</h3>
-        <span className='gray'>24 / Bigbasket Employee</span>
-        <p className='testimonal-para'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
-      </div>
-      <div className='testimonal-card mx-5'>
-        <h3>ISHA</h3>
-        <span className='gray'>22 / Student</span>
-        <p className='testimonal-para'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
-      </div>
-      <div className='testimonal-card mx-5'>
-        <h3>ANITA NAGPAL</h3>
-        <span className='gray'>47 / Homemaker</span>
-        <p className='testimonal-para'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
-      </div>
-      <div className='testimonal-card mx-5'>
-        <h3>ASMI</h3>
-        <span className='gray'>18 / student</span>
-        <p className='testimonal-para'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
-      </div>
-      <div className='testimonal-card mx-5'>
-        <h3>NAMAN</h3>
-        <span className='gray'>27 / EY Employee</span>
-        <p className='testimonal-para'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
-      </div>
+        <h3 className='centertext'>ANJU MADNANI</h3>
+        <span className='grayy'>49 / Homemaker</span>
+      </div>  
     </Slider>
   </div>
   </div>
