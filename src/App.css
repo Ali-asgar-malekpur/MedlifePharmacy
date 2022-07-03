@@ -258,11 +258,9 @@
     height: 15px;
 }
 .gray{
-    margin-left: 5px;
-     color:#918E9B;
+  margin:5px;
+  color: #474A57;
 }
-
-
 
 .bold{
     font-weight:bold;
@@ -431,8 +429,16 @@
 .underline{
   height: 1px;
   background-color: black;
-  
 }
+
+.underlinee{
+  color: #336B50;
+  width: 40%;
+  height: 5px;
+  border-radius: 5px;
+  background-color:#336B50;  
+}
+
 .reign{
   margin-right: 20px;
   border-left: 1px solid black ;
@@ -872,18 +878,93 @@
 }
 
 .testimonal{
-  margin:50px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- 
+  margin:0 auto;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lato", Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+.testimonal-card
+{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
 .testimonal-heading{
   font-size: 50px;
 }
-.main{
-  background-color: #dedde2;
-  
-}
 .testimonal-para{
-  color:rgb(97, 95, 95);
+  background-color: #FFFFFF;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: medium;
+  max-width: 500px;
+  max-height: 400px;
+  padding:50px 20px;
+  border-radius: 10px;
+  text-align: center;
+  color:#18191F;
 }
 
+.grayy
+{
+  color: #474A57;
+  margin-right: 100px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.centertext
+{
+  margin-right: 100px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: large;
+  color: #18191F; 
+}
+
+.footercolor
+{
+  background: #1C2331;
+}
+
+.alignment
+{
+  text-align: left;
+}
+
+.centercopyrights
+{
+  word-spacing: 5px;
+  margin-top: 3%;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  font-size:medium;
+  line-height: 25px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+
+
+.list-inline-item
+{
+  margin:0 10px;
+}
+
+.pharmacyColor
+{
+  color:#FF476F;
+}
+
+.widthfooter{
+  max-width:90%;
+}
