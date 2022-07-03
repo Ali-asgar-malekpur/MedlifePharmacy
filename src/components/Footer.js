@@ -111,81 +111,74 @@ const Footer = () => {
 
 
 </footer> */}
-<footer className="bg-light text-dark pt-5 pb-4">	
+<footer className="footercolor text-light pt-5 ">	
 
-		<div className="container text-center text-md-left">
+		<div className="widthfooter container text-center text-md-left">
 
 			<div className="row text-center text-md-left">
 
-				<div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-					<h5 className="text-uppercase mb-4 font-weight-bold text-info">About Us</h5>
-						<hr className="mb-4 underline"/>
-					<p>Medlife Foundation strives to work towards finding Effective Healthcare Solutions to the problems faced by people who are not privileged by spreading awareness on Sustainable Menstruation and Development of Children belonging to a weaker section of society. ....</p>
+				<div className="alignment col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+					<h5 className=" mb-4 font-weight-bold ">Medlife <span className="pharmacyColor">Pharmacy</span></h5>
+						<hr className="mb-4 underlinee"/>
+					<p>Medlife Pharmacy strives to work towards finding Effective Healthcare Solutions to the problems faced by people who are not privileged by spreading awareness on Sustainable Menstruation and Development of Children belonging to a weaker section of society. ....</p>
 					
 				</div>
 
-				<div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-					<h5 className="text-uppercase mb-4 font-weight-bold text-info">Let Us Help</h5>
-						<hr className="mb-4 underline underline"/>
+				<div className="alignment col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+					<h5 className=" mb-4 font-weight-bold ">Let Us Help</h5>
+						<hr className="mb-4 underlinee"/>
             
 				<p>
-					<a href="#" className="text-dark" style={{textDecoration: "none"}}> Your Account</a>
+					<a href="#" className="text-light" style={{textDecoration: "none"}}> Your Account</a>
 				</p>
 				<p>
-					<a href="#" className="text-dark" style={{textDecoration: "none"}}> Your Orders</a>
+					<a href="#" className="text-light" style={{textDecoration: "none"}}> Your Orders</a>
 				</p>
 				<p>
-					<a href="#" className="text-dark" style={{textDecoration: "none"}}> Medlife Wholesale</a>
+					<a href="#" className="text-light" style={{textDecoration: "none"}}> Medlife Wholesale</a>
 				</p>
 				<p>
-					<a href="#" className="text-dark" style={{textDecoration: "none"}}> Help</a>
+					<a href="#" className="text-light" style={{textDecoration: "none"}}> Help</a>
 				</p>
 
 				</div>
 
-				<div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-					<h5 className="text-uppercase mb-4 font-weight-bold text-info">Policy</h5>
-						<hr className="mb-4 underline"/>
+				<div className="alignment col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+					<h5 className=" mb-4 font-weight-bold ">Policy</h5>
+						<hr className="mb-4 underlinee"/>
 				<p>
-					<a href="#" className="text-dark" style={{textDecoration: "none"}}> Return Policy</a>
+					<a href="#" className="text-light" style={{textDecoration: "none"}}> Return Policy</a>
 				</p>
 				<p>
-					<a href="#" className="text-dark" style={{textDecoration: "none"}}> Term Of Use</a>
+					<a href="#" className="text-light" style={{textDecoration: "none"}}> Term Of Use</a>
 				</p>
 				<p>
-					<a href="#" className="text-dark" style={{textDecoration: "none"}}>Security</a>
+					<a href="#" className="text-light" style={{textDecoration: "none"}}>Security</a>
 				</p>
 				<p>
-					<a href="#" className="text-dark" style={{textDecoration: "none"}}> EPR compliance</a>
+					<a href="#" className="text-light" style={{textDecoration: "none"}}> EPR compliance</a>
 				</p>
 				</div>
 
-				<div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-					<h5 className="text-uppercase mb-4 font-weight-bold text-info" >Contact</h5>
-						<hr className="mb-4 underline"/>
+				<div className="alignment col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+					<h5 className=" mb-4 font-weight-bold " >Contact</h5>
+						<hr className="mb-4 underlinee"/>
 					<p>
-						<i className="fas fa-home mr-3"></i>  www.medlifefoundation.org
+          www.medlifepharmacy.com
 					</p>
 					<p>
-						<i className="fas fa-envelope mr-3"></i> info@medlifefoundation.org
+          care@medlifepharmacy.com
 					</p>
 					<p>
-						<i className="fas fa-phone mr-3"></i>Mr.Bhushan :+91 82753 20465
-					</p>
-					<p>
-						<i className="fas fa-print	 mr-3"></i>Mr.Sandeep : +91 99700 54699
+						Mr.Bhushan :+91 82753 20465
 					</p>
 				</div>
 				
 			</div>
 
-			<hr className="mb-4 underline"/>
 			<div className=" footer-cop row d-flex  align-items-center text-center ">
 					<div>
-						<p style={{color: "grey",fontSize:"1rem"}} >	Copyright ©2020 All rights reserved by:
-							<a href="#" style={{textDecoration: "none"}}>
-								<strong className="text-info">The Providers</strong>
-							</a>
+						<p  className="centercopyrights" style={{fontSize:"1rem"}} >© 2022 <strong><span className='pharmacyColor'>MEDLIFE</span></strong>. ALL RIGHTS RESERVED. IN COMPLIANCE WITH <strong>DRUGS</strong> AND <strong>COSMETICS </strong> ACT, 1940 AND DRUGS AND COSMETICS RULES, 1945, WE <strong>DON'T</strong> PROCESS REQUESTS FOR SCHEDULE X AND OTHER HABIT-FORMING <strong>DRUGS</strong>.
 						</p>
 					</div>
 			
@@ -194,19 +187,19 @@ const Footer = () => {
 
 						<ul className="list-unstyled list-inline">
 							<li className="list-inline-item">
-								<a href="#" className="text-dark" ><i className="fab fa-facebook"></i></a>
+								<a href="#" className="text-light" ><i className="fab fa-facebook"></i></a>
 							</li>
 							<li className="list-inline-item">
-								<a href="#" className= "text-dark" ><i className="fab fa-twitter"></i></a>
+								<a href="#" className= "text-light" ><i className="fab fa-twitter"></i></a>
 							</li>
 							<li className="list-inline-item">
-								<a href="#" className=" text-dark" ><i className="fab fa-google-plus"></i></a>
+								<a href="#" className=" text-light" ><i className="fab fa-google-plus"></i></a>
 							</li>
 							<li className="list-inline-item">
-								<a href="#" className=" text-dark" ><i className="fab fa-linkedin-in"></i></a>
+								<a href="#" className=" text-light" ><i className="fab fa-linkedin-in"></i></a>
 							</li>
 							<li className="list-inline-item">
-								<a href="#" className=" text-dark" ><i className="fab fa-youtube"></i></a>
+								<a href="#" className=" text-light" ><i className="fab fa-youtube"></i></a>
 							</li>
 						</ul>
 						
